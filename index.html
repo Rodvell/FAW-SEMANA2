@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang  =  "en">
+<head>
+    <meta charset  =  "UTF-8">
+    <meta name  =  "viewport" content  =  "width = device-width, initial-scale = 1">
+    <title>Tarea 2</title>
+    <script src  =  "script.js"></script>
+</head>
+<body>
+    <div class  =  "container">
+        <h1>Tarea #2</h1>
+        
+        <div class  =  "ejercicios">
+            <div class  =  "part">
+                <h1>Primer Ejercicio</h1>
+                <label for  =  "n1">Primer Numero</label>
+                <input type  =  "number" name  =  "n1" id  =  "n1">
+
+                <label for  =  "n2">Segundo Numero</label>
+                <input type  =  "number" name  =  "n2" id  =  "n2">
+
+                <button onclick  =  "ejecicio1()">Elevar</button>
+                <p></p>
+                <label for = "answ">Resultado</label>
+
+                <input type  =  "number" name  =  "answ" id  =  "answ">
+            </div>
+
+            <div class  =  "part">
+                <h1>Segundo Ejercicio</h1>
+                <label for  =  "grads">Temperatura en Grados Celcius</label>
+                <input type  =  "number" name = "grads" id  =  "grads">
+                <button onclick = "ejecicio2()">Convertir</button>
+                <p></p>
+                <label for  =  "answ">Grados Fahrenheit</label>
+                <input type  =  "number" name  =  "answ" id  =  "answ2">
+            </div>
+
+
+            <div class = "part">
+                <h1>Tercer Ejercicio</h1>
+                <label for = "num3">Ingresa un Nombre: </label>
+                <input type = "text" name = "num3" id = "ejnum33-name">
+                <button onclick = "ejecicio3List()">Agregar</button>
+                <p></p>
+                <ul id = "numls">
+
+                </ul>
+
+                <p><b>Filtro</b></p>
+                <label for = "num3f">Ingrese Cantidad de Caracteres: </label>
+                <input type = "number" name = "num3f" id = "num3f">
+                <button onclick = "ejecicio3Filtro()">Filtrar</button>
+                <p></p>
+                <ul id = "numfs">
+
+                </ul>
+            </div>
+
+            <div class = "part">
+                <h1>Cuarto Ejercicio</h1>
+                <label for = "nacdate">Ingresa tu Fecha Nacimiento</label>
+                <input type = "date" name = "nacdate" id = "nacdate">
+                <button onclick = "ejecicio4()">Calcular Edad</button>
+                <p></p>
+                <label for = "answ4">Tu edad en años es: </label>
+                <input type = "number" name = "answ4" id = "answ4">
+            </div>
+
+            <div class = "part">
+                <h1>Quinto Ejercicio</h1>
+                <label for = "txtsmthg">Escribe algo</label>
+                <br>
+                <textarea name = "txtsmthg" id = "txtsmthg" cols = "30" rows = "3"></textarea>
+                <button onclick = "ejecicio5()">Calcular el Numero Palabras</button>
+                <p></p>
+                <div id = "answ5">
+                    
+                </div>
+            </div>
+
+            <div class = "part">
+                <h1>Sexto Ejercicio</h1>
+                <label for = "num6">Ingresa un Numero: </label>
+                <input type = "number" name = "num6" id = "num6">
+                <button onclick = "ejecicio61()">Agregar</button>
+                <p></p>
+                <ul id = "numst">
+
+                </ul>
+                <hr>
+                <p></p>
+                <button onclick = "ejecicio62()">Promedio</button>
+                <div id = "answ6">
+                    
+                </div>
+            </div>
+
+            <div class = "part">
+                <h1>Septimo Ejercicio</h1>
+
+                <style>
+                    #sqare {
+                        width: 100px;
+                        height: 100px;
+                        border: 1px solid #000;
+                    }
+                </style>
+                <label for = "colorInput">Ingrese numero de #color:</label>
+                <input type = "text" id = "colorInput">
+    
+                <button onclick = "ejecicio7()">Seleccionar Color</button>
+                <div id = "sqare"></div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
